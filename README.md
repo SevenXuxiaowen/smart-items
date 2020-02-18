@@ -67,7 +67,7 @@ http GET http://localhost:5000/search/laptop
             {
                 "id": "cat00000",
                 "name": "Best Buy"
-            },...
+            }
         ],
         "image": "https://pisces.bbystatic.com/image2...",
         "name": "Apple - MacBook Air®...",
@@ -75,7 +75,7 @@ http GET http://localhost:5000/search/laptop
         "review": 10374,
         "sku": 5465502,
         "text": "Intel&#174; Core&#8482; i5 processor..."
-    },...
+    }
 ]
 ```
 ## GET /detail/:id
@@ -113,7 +113,7 @@ Example response
         {
             "id": "cat00000",
             "name": "Best Buy"
-        },...
+        }
     ],
     "color": "White",
     "features": [
@@ -160,7 +160,7 @@ http GET http://localhost:5000/recommends/abcat0811002
         "review": 453,
         "sku": "5971800",
         "text": "Compatible with most Wi-Fi enabled..."
-    },...
+    }
 ]
 ```
 # Front-End
